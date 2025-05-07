@@ -18,9 +18,11 @@
 
     <script>
         function sign_up(){
+            //input에 적은 값 받아오기기
             const s_id = document.getElementById('s_id').value
             const s_pw = document.getElementById('s_pw').value
             
+            //s_id가 스토리지에 있는지 확인 - 같은 key면 추가x value값을 변환하므로 같은 key값을 안 나오게
             const key_id = sessionStorage.getItem(s_id)
             if(key_id===null){
                 window.sessionStorage.setItem(s_id,s_pw)

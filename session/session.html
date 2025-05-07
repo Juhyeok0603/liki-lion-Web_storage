@@ -21,14 +21,17 @@
             location.href='session_sign_up.html';
         }
         function login(){
+            //input의 아이디&패스워드 받아오기
             const id = document.getElementById('id').value
             const pw = document.getElementById('pw').value;
             
+            //세션 스토리지에 id와 pw 있으면 가져오기
             const l_id = sessionStorage.getItem(id)
             const l_pw = sessionStorage.getItem(id)
             
             //편법...
             if(l_id == null){
+                //l_id가 있는지 확인
                 alert('존재하지 않는 아이디입니다')
             }else if(pw == l_pw){
                 
