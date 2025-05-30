@@ -14,7 +14,7 @@
 
 #### 2.로컬스토리지 확인
 > F12를 눌러 localstorage를 확인하면 값이 제대로 들어감.
-![localstorage]()
+![localstorage](https://github.com/Juhyeok0603/liki-lion-Web_storage/blob/main/img/localstorage.png)
 
 #### 3.로그인
 > 회원가입한 아이디와 패스워드로 로그인
